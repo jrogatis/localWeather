@@ -1,0 +1,30 @@
+body {
+  font-family: 'Prometo-lIght';
+  color: #fff;
+  background-color: #060DB0;
+}
+
+.status p {
+  font-size: 1.8em;
+  text-transform: capitalize;
+}
+
+header {
+  margin-bottom: 30px;
+}
+
+.temp{
+	cursor: pointer;
+	color: #CC005F;
+}
+.temp:hover{
+	color: #ECFF0D;
+}
+h1 {
+  font-size: 5em;
+}
+
+
+#img_wt {
+	height: 100px;
+}

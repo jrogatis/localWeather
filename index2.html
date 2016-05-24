@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+        <script src="jQueryAssets/jquery-1.11.1.min.js"></script>
+        <script src="jQueryAssets/jquery.ui-1.10.4.button.min.js"></script>
+        <title>Local Wheather</title>
+        <script>var __adobewebfontsappname__="dreamweaver"</script>
+        <script src="http://use.edgefonts.net/source-sans-pro:n2:default.js" type="text/javascript"></script>
+        <!--<script src="https://use.fontawesome.com/a1a64b1f0c.js"></script> --!>      
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+              <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+              <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+            <![endif]-->
+        <link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+        <link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+        <link href="jQueryAssets/jquery.ui.button.min.css" rel="stylesheet" type="text/css">
+        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.4/angular.min.js"></script>
+		<script src="localWeather_V2.js"></script>
+        
+        <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+        <link href="style2.css" rel="stylesheet" type="text/css">
+</head>
+<body ng-app>
+<!-- Main Container -->
+<div class="container">
+  <header>
+    <h1 id="header_site">Your Local Weather</h1>
+  </header>
+ 
+  <div id = "wheater_info">
+     <h2 id= "city" class="location col-centered"></h2>      
+    
+      <div class="row row-centered">
+     	 <img id= "weather_icon" class= "col-centered"/>   
+ 	 </div>     
+     
+  	 <p id= "temp"></p>
+     <p id= "temp_min"></p>
+     <p id= "temp_max"></p>
+     <p id= "pressure"></p>
+  </div>
+  <!-- More Info Section -->
+  <footer>
+  <!--&#8451-->
+ <button id="button-conversion" class="Button">to &#8457</button>
+  <div class="copyright">&copy;2016 - <strong><a href="http://www.metaconexao.com.br">Jean Philip de Rogatis</a></strong></div>
+  </footer>
+ 
+</div>
+<!-- Main Container Ends -->
+</body>
+
+</html>
